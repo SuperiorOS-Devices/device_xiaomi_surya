@@ -616,4 +616,7 @@
         M 0,0 H -36 V 100 H 36 V 0 H 0 Z
     </string>
 
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
+
 </resources>
