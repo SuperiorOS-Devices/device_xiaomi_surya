@@ -31,7 +31,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    GoogleCameraGo
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0
