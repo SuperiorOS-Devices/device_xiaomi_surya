@@ -125,7 +125,7 @@ void load_dalvik_properties()
         heaptargetutilization = "0.46";
         heapminfree = "8m";
         heapmaxfree = "48m";
-    } else if (sys.totalram >= 5ull * 1024 * 1024 * 1024){
+    } else {
         // from - phone-xhdpi-6144-dalvik-heap.mk
         heapstartsize = "16m";
         heapgrowthlimit = "256m";

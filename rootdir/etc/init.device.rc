@@ -6,6 +6,14 @@ on post-fs && property:ro.product.device=karna
     mount none /dev/null /vendor/etc/permissions/android.hardware.nfc.uicc.xml bind
     setprop ro.power_profile.override power_profile_karna
 
+on post-fs
+    mount none /dev/null /vendor/overlay/AospFrameworkResOverlay.apk bind
+    mount none /dev/null /vendor/overlay/DevicesAndroidOverlay.apk bind
+    mount none /dev/null /vendor/overlay/DevicesOverlay.apk bind
+    mount none /dev/null /vendor/overlay/FrameworksResCommon.apk bind
+    mount none /dev/null /vendor/overlay/FrameworksResTarget.apk bind
+    mount none /dev/null /vendor/overlay/SystemUIResCommon.apk bind
+
 on init 
     chown system system /sys/devices/platform/soc/soc:qcom,dsi-display/dsi_display_hbm
     chown system system /sys/devices/platform/soc/soc:qcom,dsi-display/dsi_display_cabc
