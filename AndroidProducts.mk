@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wave_surya.mk
+    $(LOCAL_DIR)/superior_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    wave_surya-user \
-    wave_surya-userdebug \
-    wave_surya-eng
+    superior_surya-user \
+    superior_surya-userdebug \
+    superior_surya-eng
