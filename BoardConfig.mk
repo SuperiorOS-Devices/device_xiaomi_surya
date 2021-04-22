@@ -94,6 +94,9 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# USB
+TARGET_QTI_USB_SUPPORTS_AUDIO_ACCESSORY := true
+
 # Verified Boot
 BOARD_AVB_VBMETA_SYSTEM := system system_ext product
 BOARD_AVB_VBMETA_SYSTEM_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
