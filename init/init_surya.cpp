@@ -91,4 +91,8 @@ void vendor_load_properties()
         set_device_props("POCO", "surya", "M2007J20CG", "surya_global");
         property_override("ro.product.mod_device", "surya_global");
     }
+
+    //Safetynet workarounds
+    property_override("ro.oem_unlock_supported", "0");
+    property_override("ro.boot.verifiedbootstate", "green");
 }
