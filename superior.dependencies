@@ -4,13 +4,23 @@
         "target_path":  "device/xiaomi/sm6150-common"
     },
     {
-        "repository":   "ghostrider-reborn/android_kernel_xiaomi_surya",
+        "repository":   "GZR-Kernels/Optimus_Drunk_Surya",
         "target_path":  "kernel/xiaomi/surya",
         "remote":       "github",
-        "branch":       "LA.UM.9.x"
+        "branch":       "11.0"
     },
     {
         "repository":   "vendor_xiaomi_surya",
         "target_path":  "vendor/xiaomi/surya"
+    },
+    {
+        "repository":   "vendor_xiaomi_sm6150-common",
+        "target_path":  "vendor/xiaomi/sm6150-common"
+    },
+    {
+        "repository":   "LineageOS/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "remote":       "github",
+        "branch":       "lineage-18.1"
     }
 ]
