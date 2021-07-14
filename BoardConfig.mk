@@ -1,6 +1,7 @@
 #
 # Copyright (C) 2021 Paranoid Android
-#           (C) 2021 WaveOS
+# Copyright (C) 2021 WaveOS
+# Copyright (C) 2021 SuperiorOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #

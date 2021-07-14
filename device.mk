@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2021 Paranoid Android
+# Copyright (C) 2021 SuperiorOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
